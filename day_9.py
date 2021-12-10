@@ -1,6 +1,3 @@
-from mmap import MADV_MERGEABLE
-
-
 file = open('day_9.txt', 'r')
 
 map = []
