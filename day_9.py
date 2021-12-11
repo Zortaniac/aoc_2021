@@ -4,7 +4,7 @@ map = []
 
 with file as lines:
     try:
-        while True:                 #Just to fake a lot of readlines and hit the end
+        while True:
             current = next(lines).strip()
             map.append([int(x) for x in current])
             

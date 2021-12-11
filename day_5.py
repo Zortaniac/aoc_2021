@@ -5,7 +5,7 @@ max_x = 0
 max_y = 0
 with file as lines:
     try:
-        while True:                 #Just to fake a lot of readlines and hit the end
+        while True:
             current = next(lines).strip()
             parts = current.split("->")
             xy1 = parts[0].strip().split(",")
